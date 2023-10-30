@@ -1,0 +1,391 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* navbar start  */
+#navbar {
+    background-color: #f9f9f9;
+}
+
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#logo span {
+    color: #f4a500;
+}
+
+.navbar-toggler span {
+    color: #f4a500;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0. 5s ease;
+}
+
+.nav-item .nav-link:hover {
+    background: #f4a500;
+    color: white;
+}
+
+#navbar form {
+    margin-left: auto;
+}
+
+#navbar form button {
+    background: orange;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+
+/* navbar end  */
+
+/* home section start  */
+.home {
+    height: 90vw;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(/img/Untitled\ design\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .content {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.home .content h5 {
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .content h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+
+.home .content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.changecontent::after {
+    content: '';
+    color: #f4a500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% {
+        content: "France";
+    }
+
+    10% {
+        content: "Italy";
+    }
+
+    20% {
+        content: "Thailand";
+    }
+
+    30% {
+        content: "Turkey";
+    }
+
+    40% {
+        content: "Dubai";
+    }
+
+    50% {
+        content: "Qatar";
+    }
+
+    60% {
+        content: "Russia";
+    }
+
+    70% {
+        content: "Pakistan";
+    }
+
+    80% {
+        content: "Austalia";
+    }
+
+    90% {
+        content: "Indonesia";
+    }
+}
+
+.home .content a {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5ms;
+}
+
+.home .content a:hover {
+    background-color: #f4a500;
+    color: white;
+}
+
+@media(max-width:850px) {
+    .home {
+        background-position: 50%;
+    }
+}
+
+@media(max-width:450px) {
+    .home .content h5 {
+        font-size: 25px;
+    }
+
+    .home .content h1 {
+        font-size: 38px;
+    }
+
+    .home .content p {
+        font-size: 15px;
+    }
+}
+
+/* home section end  */
+
+/* services section start  */
+
+.services .container .main-txt h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.services .container .main-txt h1 span{
+    color: #f4a500;
+}
+.services{
+    background: #f9f9f9;
+    margin: top 50px;
+}
+.services .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    color: #f4a500;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+
+
+/* services section end  */
+
+
+
+
+/* contact section start  */
+.contact .container .main-text h1 span{
+   color: #f4a500;
+}
+..contact .container .main-text h1 {
+
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact{
+    background: #f9f9f9;
+    padding: 50px;
+}
+..contact .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px  6px black;
+}
+.contact .row{
+    margin-top: 30px;
+}
+.contact form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.contact form textarea{
+    border: none;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.contact .submit{
+    width: 160px;
+    font-size: 16px;
+    background: #f4a500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.contact .submit:hover{
+    width: 170px;
+}
+
+@media(max-width:750px){
+
+    .contact{
+        padding: 0;
+    }
+    .main-text{
+        padding: 20px;
+    }
+}
+
+
+/* contact section start  */
+
+
+
+/* about section start  */
+ .about .container .main-txt h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .about .container .main-txt h1 span{
+    color: #f4a500;
+ }
+
+ .about{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+ }
+ .about .card{
+    border-radius: 10px;
+ }
+ .about .card img{
+    border-radius: 10px;
+ }
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+    text-align: justify;
+}
+
+#About-btn{
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    background: #f4a500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5ms;
+    cursor: pointer;
+}
+#About-btn:hover{
+    width: 170px;
+}
+@media (max-width:750px){
+    .about{
+        padding: 0;
+    }
+}
+
+
+
+/* about section end  */
+
+
+
+/* footer start  */
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: #f4a500;
+}
+.social-link i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5ms ease;
+    cursor: pointer;
+}
+.social-link i:hover{
+    background: #f4a500;
+}
+
+
+/* footer end  */
